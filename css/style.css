@@ -15,6 +15,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+p {
+    margin: 0;
+}
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -180,4 +183,45 @@ body {
 }
 .inform-item__text {
     max-width: 450px;
+}
+
+.options {
+    padding-bottom: 150px;
+}
+.options__title {
+    margin: 0 0 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.options__wrapper {
+    display: flex;
+}
+.options__img {
+    align-self: center;
+}
+.options-items {
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+.options-items__list + .options-items__list{
+    margin-top: 30px;
+}
+.options-items__list-title {
+    padding: 2px 0 3px;
+    text-transform: uppercase;
+    background-color: #131313;
+    color: #fff;
+    font-weight: 700;
+}
+.options-items__list-line {
+    display: flex;
+    padding-top: 5px;
+}
+.options-items__list-name {
+    flex-basis: 285px;
+    padding-right: 25px;
+}
+.options-items__list-descr {
+    flex-basis: 285px;
 }
