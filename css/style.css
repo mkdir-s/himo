@@ -153,3 +153,31 @@ body {
     line-height: 15px;
     text-transform: lowercase;
 }
+
+.inform {
+    padding-bottom: 150px;
+}
+.inform__wrapper {
+    display: flex;
+}
+.inform__img {
+    margin-right: 60px;
+    flex-basis: 570px;
+    object-fit: cover;
+}
+.inform__list {
+    flex-basis: 490px;
+}
+.inform-item + .inform-item {
+    padding-top: 50px;
+}
+.inform-item__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.inform-item__text {
+    max-width: 450px;
+}
