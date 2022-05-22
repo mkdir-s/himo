@@ -20,10 +20,10 @@
                     <img class="header__logo-img" src="images/logo.jpg" alt="логотип">
                 </a>
                 <nav class="header-menu">
-                    <ul class="header-menu__list">
-                        <li class="header-menu__list-item"><a class="header-menu__list-link" href="#">Описание</a></li>
-                        <li class="header-menu__list-item"><a class="header-menu__list-link" href="#">Характеристики</a></li>
-                        <li class="header-menu__list-item"><a class="header-menu__list-link header-menu__list-link_last" href="#">стоимость</a></li>
+                    <ul class="header-menu__list" id="menu">
+                        <li class="header-menu__list-item"><a class="header-menu__list-link" href="#inform">Описание</a></li>
+                        <li class="header-menu__list-item"><a class="header-menu__list-link" href="#options">Характеристики</a></li>
+                        <li class="header-menu__list-item"><a class="header-menu__list-link header-menu__list-link_last" href="#price">стоимость</a></li>
                     </ul>
                 </nav>
             </div>
@@ -37,7 +37,7 @@
                     <h3 class="bike-column__subtitle">Электрический велосипед</h3>
                     <p class="bike-column__text">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
                     <p class="bike-column__text">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее. </p>
-                    <a class="bike-column__link" href="#">ЗАКАЗАТЬ</a>
+                    <a class="bike-column__link" href="#price">ЗАКАЗАТЬ</a>
                 </div>
                 <div class="bike-column bike-column_slider">
                     <div class="bike__slider">
@@ -68,7 +68,7 @@
             </div>
         </div>
     </section>
-    <section class="inform">
+    <section class="inform" id="inform">
         <div class="container">
             <div class="inform__wrapper">
                 <img class="inform__img" src="images/inform-img.jpg" alt="велосипед">
@@ -102,7 +102,7 @@
             </div>
         </div>
     </section>
-    <section class="options">
+    <section class="options" id="options">
         <div class="container">
             <h4 class="options__title">Характеристики</h4>
             <div class="options__wrapper">
@@ -229,7 +229,7 @@
             </div>
         </div>
     </div>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="price__wrapper">
                 <form class="price__form">
@@ -269,6 +269,21 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__link" href="#">Политика конфиденциальности</a>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#"><img src="images/instagram.svg" alt="инстаграм"></a>
+                    <a class="footer__social-link" href="#"><img src="images/facebook.svg" alt="фейсбук"></a>
+                </div>
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link footer__contacts-link_phone" href="tel: +380506777777">+38 050 677 77 77</a>
+                    <a class="footer__contacts-link footer__contacts-link_email" href="mailto: elektrobikeukr@gmail.com">elektrobikeukr@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
